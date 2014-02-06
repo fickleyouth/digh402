@@ -1,6 +1,6 @@
 <?php
 //currently set to basic user query
-$con = mysqli_connect('localhost', '402user', 'celine59', '402framework');
+$con = mysqli_connect('localhost', 'your_database_username', 'your_database_password', 'name_of_database');
 if (!$con) {
     die('Could not connect: ' . mysql_error());
 }
