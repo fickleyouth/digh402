@@ -9,8 +9,6 @@ require_once LIBRARY_DIR."functions.php";
 require_once CONSTANTS_DIR."constants.php";
 //require assorted error functions for the framework
 require_once LIBRARY_DIR."error_functions.php";
-//require controller for the framework
-require_once LIBRARY_DIR."controller.php";
 
 /**
  * load and initialise Loader for 402 framework
