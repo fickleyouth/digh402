@@ -16,7 +16,7 @@ define("BASE_NAME", basename($base_dir));
 define("CONFIG_DIR", "config/");
 define("DESIGN_DIR", "design/");
 define("FRAMEWORK_DIR", "frame/");
-define("MEDIA_DIR", "media");
+define("MEDIA_DIR", "media/");
 define("PLUGINS_DIR", "plugins/");
 define("SYSTEM_DIR", "system/");
 
