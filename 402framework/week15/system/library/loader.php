@@ -96,7 +96,9 @@ function load_controller($controller = null, $controller_dir = null, $format = n
 	$content = "<h3>Welcome to the 402 framework</h3>";
 	self::$content_meta = null;
 	self::$plugins = null;
-	self::draw_theme($content, self::$content_meta, self::$plugins);
+	$related_links = null;
+	$related_content = null;
+	self::draw_theme($content, self::$content_meta, self::$plugins, $related_links, $related_content);
 	}
   	
   	//check content format, group, and params for controller - group content returned eg: image gallery
@@ -169,7 +171,9 @@ function load_controller($controller = null, $controller_dir = null, $format = n
 	$content = 'No content found.';
 	self::$content_meta = null;
 	self::$plugins = null;
-	self::draw_theme($content, self::$content_meta, self::$plugins);
+	$related_links = null;
+	$related_content = null;
+	self::draw_theme($content, self::$content_meta, self::$plugins, $related_links, $related_content);
 	}
   	}
 	//check content format and params for controller - single content returned eg: image, text...
